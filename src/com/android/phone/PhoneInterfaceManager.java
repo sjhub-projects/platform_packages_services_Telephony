@@ -2376,10 +2376,6 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
         }
     }
 
-    public int getLteOnGsmMode() {
-        return mPhone.getLteOnGsmMode();
-    }
-
     public void setPhone(Phone phone) {
         mPhone = phone;
     }
